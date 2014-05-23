@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <item
+    <!-- <item
         android:id="@+id/item1"
         android:title="@string/item1"
         android:showAsAction="always"/>
@@ -14,5 +14,27 @@
         android:title="@string/item3"
         android:icon="@android:drawable/ic_menu_save"
         android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_tel"
+        android:title="@string/item_tel"
+        android:icon="@android:drawable/ic_menu_call"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_sms"
+        android:title="@string/item_sms"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_location"
+        android:title="@string/item_location"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/item_other" android:title="その他">
+        <menu >
+            <item />
+            <item />
+        </menu>
+    </item> -->
 
 </menu>
