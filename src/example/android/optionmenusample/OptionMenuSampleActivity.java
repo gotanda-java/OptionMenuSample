@@ -16,6 +16,10 @@ import android.view.SubMenu;
 
 public class OptionMenuSampleActivity extends Activity implements LocationListener {
 
+
+	//とくに使わないテスト用変数
+	String test1;
+
 		private LocationManager mgr;
 		private static final int REQUEST_IMAGE_CAPTURE = 0;
 
